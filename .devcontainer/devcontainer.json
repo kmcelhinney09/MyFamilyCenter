@@ -3,7 +3,10 @@
 {
 	"name": "MyFamilyCenter",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"build": { "dockerfile": "Dockerfile" },
+	//"build": { "dockerfile": "Dockerfile" },
+	{
+		"image:mcr.microsoft.com/devcontainers/javascript-node:1.0.3-20-bookworm"
+},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
