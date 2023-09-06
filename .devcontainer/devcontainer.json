@@ -15,7 +15,21 @@
 	// "postCreateCommand": "yarn install",
 
 	// Configure tool-specific properties.
-	"customizations": {}
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"dsznajder.es7-react-js-snippets",
+				"formulahendry.auto-rename-tag",
+				"christian-kohler.npm-intellisense",
+				"esbenp.prettier-vscode",
+				"Gruntfuggly.todo-tree",
+				"formulahendry.vscode-mysql",
+				"thebarkman.vscode-djaneiro",
+				"inferrinizzard.prettier-sql-vscode"
+			]
+		}
+	}
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
