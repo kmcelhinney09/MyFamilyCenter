@@ -10,7 +10,7 @@ RUN npm install
 WORKDIR /api
 RUN apt-get update && apt-get upgrade -y
 
-RUN sudo apt install pip
+RUN sudo apt install python3-pip
 
 COPY ./api/api-requierments.txt /api
 RUN pip install -r api-requierments.txt
