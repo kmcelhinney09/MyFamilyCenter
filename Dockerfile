@@ -9,7 +9,7 @@ RUN npm install
 
 WORKDIR /api
 RUN apt-get update && apt-get upgrade -y
-RUN sudo apt-get -y install mysql-server python-mysqldb
+
 RUN sudo apt install -y pip
 
 COPY ./api/api-requierments.txt /api
